@@ -17,7 +17,7 @@ $("#elastic_grid_demo").elastic_grid({
 			{ 'title':'Demo', 'url' : 'http://#' },
 			{ 'title':'Download', 'url':'http://#'}
 			],
-			'tags'  : ['All']
+			'tags'  : ['All','2012']
 			},
 
 			{
@@ -30,7 +30,7 @@ $("#elastic_grid_demo").elastic_grid({
 			{ 'title':'Demo', 'url' : 'http://#' },
 			{ 'title':'Download', 'url':'http://#'}
 			],
-			'tags'  : ['Photoshop','All']
+			'tags'  : ['All','2013']
 			},
 
 			{
@@ -43,7 +43,7 @@ $("#elastic_grid_demo").elastic_grid({
 			{ 'title':'Demo', 'url' : 'http://#' },
 			{ 'title':'Download', 'url':'http://#'}
 			],
-			'tags'  : ['Design', 'All']
+			'tags'  : ['All','2014']
 			},
 
 			{
@@ -56,7 +56,7 @@ $("#elastic_grid_demo").elastic_grid({
 			{ 'title':'Demo', 'url' : 'http://#' },
 			{ 'title':'Download', 'url':'http://#'}
 			],
-			'tags'  : ['Jquery','All']
+			'tags'  : ['All','2015']
 			},
 
 			{
@@ -69,7 +69,7 @@ $("#elastic_grid_demo").elastic_grid({
 			{ 'title':'Demo', 'url' : 'http://#' },
 			{ 'title':'Download', 'url':'http://#'}
 			],
-			'tags'  : ['Wordpress','All']
+			'tags'  : ['All','2016']
 			},
 
 			{
