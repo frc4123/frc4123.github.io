@@ -689,6 +689,22 @@ div[data-dimension] {
   -o-transition: all 0.5s;
   transition: all 0.5s;
 }
+.service_img {
+  border-radius: 100%;
+  height: 150px;
+  width: 150px;
+  padding: 0 0;
+
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.service_img:hover {
+    border-radius: 10%;
+-ms-transform: scale(1.1,1.1); /* IE 9 */
+    -webkit-transform: scale(1.1,1.1); /* Safari */
+    transform: scale(1.1,1.1);
+}
 
 
 .single_service>h2{
@@ -1382,6 +1398,9 @@ div[data-dimension] {
   text-align: center;
   width: 100%;
   padding: 25px 0px;
+
+    /* for making <a> act as <div>*/
+    display:block;
 }
 
 

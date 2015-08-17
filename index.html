@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
 
-    <!-- Basic Page Needs
+    <!-- Basic Page Needs --
     ================================================== -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -119,11 +119,11 @@
               <li class="active"><a href="#">Home</a></li>
               <li><a href="#about">About</a></li>
                
-              <li><a href="#works">Works</a></li> 
+              <li><a href="#works">Facts</a></li>
               <li><a href="#team">Team</a></li> 
               <li><a href="#service">Our Robots</a></li>
-              <li><a href="#pricing">Sponsor Levels</a></li>
-              <li><a href="#blog">Blog</a></li>               
+              <li><a href="#pricing">Sponsor Perks</a></li>
+<!--              <li><a href="#blog">Blog</a></li>               -->
               <li><a href="#contact">Contact Us</a></li>  
                 
             </ul>           
@@ -148,8 +148,15 @@
               <!-- FIRST SLIDE CAPTION-->
               <div class="slider_caption">
                 <h2>Hi, We are Tribe Robotics</h2>
-                <p>we build robots.</p>
-                <a href="#about" class="slider_btn">See what we do</a>              
+                <p>Engineers in the Making</p>
+                <a  href="#about"
+                    onclick="$('html, body').animate({
+                    scrollTop: $( $(this).attr('href') ).offset().top
+                    }, 750);
+                    return false;"
+                    class="slider_btn">See what we do
+                </a>
+
               </div>
             </li>
 
@@ -234,13 +241,13 @@
                           <div class="panel-heading">
                             <h4 class="panel-title">
                               <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
-                                 <span class="fa fa-check-square-o"></span>Creative & clean Design
+                                 <span class="fa fa-caret-square-o-down"></span>Ingenuity & Creativity
                               </a>
                             </h4>
                           </div>
                           <div id="collapseOne" class="panel-collapse collapse in">
                             <div class="panel-body">
-                             It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like). 
+                             As a robotics team we promote ideas that are made by the students. We put these ideas to the test and if they fail to complete the task the students are now challenged to come up with another idea. This is why creativity is important in our organization. Creativity is a necessity with the guidelines that FRC provides. The rules that we are given are seemingly limiting, but with ingenuity a robot can be made to overcome the challenges put forth and often done adeptly.
                             </div>
                           </div>
                         </div>
@@ -249,22 +256,22 @@
                           <div class="panel-heading">
                             <h4 class="panel-title">
                               <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
-                                 <span class="fa fa-check-square-o"></span>100% responsive layout
+                                 <span class="fa fa-caret-square-o-down"></span>Teamwork & Unity
                               </a>
                             </h4>
                           </div>
                           <div id="collapseTwo" class="panel-collapse collapse">
                             <div class="panel-body">
-                            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. 
+                            As a robotics team it is essential that communication is kept with the team. When working with others on the robot it is important to keep everyone informed. This allows for everyone to work fluently and with fewer conflicts. Working together also creates bonds between the members and we become a family. Together in unity is how to accomplish our goals.
                             </div>
                           </div>
                         </div>
-                        <!-- START SINGLE FEATURED ITEAM #3 -->
+                        <!-- START SINGLE FEATURED ITEAM #3 --  REMOVED FOR NOW
                         <div class="panel panel-default wow fadeInLeft">
                           <div class="panel-heading">
                             <h4 class="panel-title">
                               <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
-                                <span class="fa fa-check-square-o"></span>Detail Documentation
+                                <span class="fa fa-caret-square-o-down"></span>Detail Documentation
                               </a>
                             </h4>
                           </div>
@@ -274,12 +281,12 @@
                             </div>
                           </div>
                         </div>
-                        <!-- START SINGLE FEATURED ITEAM #4 -->
+                        <!-- START SINGLE FEATURED ITEAM #4 --
                         <div class="panel panel-default wow fadeInLeft">
                           <div class="panel-heading">
                             <h4 class="panel-title">
                               <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
-                                <span class="fa fa-check-square-o"></span>24Hours Premium Support
+                                <span class="fa fa-caret-square-o-down"></span>24Hours Premium Support
                               </a>
                             </h4>
                           </div>
@@ -289,6 +296,7 @@
                             </div>
                           </div>
                         </div>
+                          <!--  -->
                       </div>
                     </div>
                   </div>
@@ -334,34 +342,34 @@
               <div class="container">               
                 <div class="skills">
                  <div class="heading">
-                    <h3 class="wow fadeInDown">Our Skills</h3>               
+                    <h3 class="wow fadeInDown">Our Team</h3>
                   </div>
                   <!-- START SINGLE SKILL-->
                   <div class="col-lg-3 col-md-3 col-sm-3">
                    <div class="single_skill wow fadeInUp">
-                     <div id="myStat" data-dimension="150" data-text="85%" data-info="" data-width="10" data-fontsize="25" data-percent="85" data-fgcolor="#999" data-bgcolor="#fff"  data-icon="fa-task"></div>
-                      <h4>Design</h4>                      
+                     <div id="myStat" data-dimension="150" data-text="20%" data-info="" data-width="10" data-fontsize="25" data-percent="20" data-fgcolor="#999" data-bgcolor="#fff"  data-icon="fa-task"></div>
+                      <h4>Programmers</h4>
                     </div>
                   </div>
                   <!-- START SINGLE SKILL-->
                   <div class="col-lg-3 col-md-3 col-sm-3">
                     <div class="single_skill wow fadeInUp">
-                      <div id="myStathalf2" data-dimension="150" data-text="90%" data-info="" data-width="10" data-fontsize="25" data-percent="90" data-fgcolor="#999" data-bgcolor="#fff"  data-icon="fa-task"></div>
-                      <h4>HTML/CSS</h4>
+                      <div id="myStathalf2" data-dimension="150" data-text="40%" data-info="" data-width="10" data-fontsize="25" data-percent="40" data-fgcolor="#999" data-bgcolor="#fff"  data-icon="fa-task"></div>
+                      <h4>Business</h4>
                     </div>
                   </div>
                   <!-- START SINGLE SKILL-->
                   <div class="col-lg-3 col-md-3 col-sm-3">                 
                     <div class="single_skill wow fadeInUp">
-                      <div id="myStat2" data-dimension="150" data-text="65%" data-info="" data-width="10" data-fontsize="25" data-percent="65" data-fgcolor="#999" data-bgcolor="#fff"  data-icon="fa-task"></div>
-                      <h4>jQuery</h4>
+                      <div id="myStat2" data-dimension="150" data-text="40%" data-info="" data-width="10" data-fontsize="25" data-percent="40" data-fgcolor="#999" data-bgcolor="#fff"  data-icon="fa-task"></div>
+                      <h4>Media</h4>
                     </div>
                   </div>
                   <!-- START SINGLE SKILL-->
                   <div class="col-lg-3 col-md-3 col-sm-3">                 
                     <div class="single_skill wow fadeInUp">
-                      <div id="myStat3" data-dimension="150" data-text="75%" data-info="" data-width="10" data-fontsize="25" data-percent="75" data-fgcolor="#999" data-bgcolor="#fff"  data-icon="fa-task"></div>
-                      <h4>WordPress</h4>
+                      <div id="myStat3" data-dimension="150" data-text="100%" data-info="" data-width="10" data-fontsize="25" data-percent="100" data-fgcolor="#999" data-bgcolor="#fff"  data-icon="fa-task"></div>
+                      <h4>Engineers</h4>
                     </div>
                   </div>
                 </div>
@@ -386,38 +394,38 @@
             <div class="container">               
               <div class="counter_area">
                <div class="heading">
-                  <h3 class="wow fadeInLeft">Some Milestone Works</h3>             
+                  <h3 class="wow fadeInLeft">Quick Facts</h3>
                 </div>
                 <!-- START SINGLE COUNTER-->
                 <div class="col-lg-3 col-md-3 col-sm-3">
                   <div class="counter wow fadeInUp">
                     <i class="fa fa-users fa-2x"></i>
-                    <h2 class="timer count-title" id="count-number" data-to="940" data-speed="1500">400</h2>
-                     <p class="count-text ">Clients</p>
+                    <h2 class="timer count-title" id="count-number" data-to="20" data-speed="1500">0</h2>
+                     <p class="count-text ">Team Members</p>
                   </div>
                 </div>
                 <!-- START SINGLE COUNTER-->
                 <div class="col-lg-3 col-md-3 col-sm-3">
                   <div class="counter wow fadeInUp">
-                    <i class="fa fa-tasks fa-2x"></i>
-                    <h2 class="timer count-title" id="count-number2" data-to="1750" data-speed="1500">300</h2>
-                     <p class="count-text ">Projects</p>
+                    <i class="fa fa-cogs fa-2x"></i>
+                    <h2 class="timer count-title" id="count-number2" data-to="3" data-speed="1500">0</h2>
+                     <p class="count-text ">Robots</p>
                   </div>
                 </div>
                 <!-- START SINGLE COUNTER-->
                 <div class="col-lg-3 col-md-3 col-sm-3">                 
                    <div class="counter wow fadeInUp">
-                    <i class="fa fa-coffee fa-2x"></i>
-                    <h2 class="timer count-title" id="count-number3" data-to="300" data-speed="1500">200</h2>
-                     <p class="count-text ">Cup Of Coffee</p>
+                    <i class="fa fa-calendar fa-2x"></i>
+                    <h2 class="timer count-title" id="count-number3" data-to="5" data-speed="1500">0</h2>
+                     <p class="count-text ">Years in the making</p>
                   </div>
                 </div>
                 <!-- START SINGLE COUNTER-->
                 <div class="col-lg-3 col-md-3 col-sm-3">                 
                   <div class="counter wow fadeInUp">
-                    <i class="fa fa-bullhorn fa-2x"></i>
+                    <i class="fa fa-rocket fa-2x"></i>
                     <h2 class="timer count-title" id="count-number4" data-to="875" data-speed="1500">100</h2>
-                     <p class="count-text ">Subscribers</p>
+                     <p class="count-text ">Future plans</p>
                   </div>
                 </div>
               </div>
@@ -435,8 +443,8 @@
             <div class="col-lg-12 col-md-12">
              <div class="container">
                 <div class="heading">
-                  <h2 class="wow fadeInLeftBig">Latest Works</h2>
-                  <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text</p>
+                  <h2 class="wow fadeInLeftBig">Gallery</h2>
+                  <p>Here are some snippets from our past:</p>
                 </div>
               </div>
             </div>
@@ -472,11 +480,11 @@
                 <div class="col-lg-3 col-md-3 col-sm-4">
                   <div class="single_team wow fadeInUp">
                     <div class="team_img">
-                      <img src="img/team-1.jpg" alt="img">
+                      <img src="img/teamprofiles/teamprofiles_adrianc.jpg" alt="img">
                     </div>
-                    <h5 class="">Jamie Sidens</h5>
-                    <span>Founder</span>                        
-                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature</p>
+                    <h5 class="">Adrian Campos</h5>
+                    <span>Student Captain & Head of Programming</span>
+                    <p>Adrian signed up for the team as a freshman, looking to explore the exciting field of robotics!</p>
                     <div class="team_social">
                       <a href="#"><i class="fa fa-facebook"></i></a>
                       <a href="#"><i class="fa fa-twitter"></i></a>
@@ -489,15 +497,15 @@
                 <div class="col-lg-3 col-md-3 col-sm-4">
                   <div class="single_team wow fadeInUp">
                     <div class="team_img">
-                      <img src="img/team-2.jpg" alt="img">
+                      <img src="img/teamprofiles/teamprofiles_diegoc.jpg" alt="img">
                     </div>
-                    <h5>Jamie Sidens</h5>
-                    <span>CMS Developer</span>                        
-                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature</p>
+                    <h5>Diego Castañeda</h5>
+                    <span>Student Captian & Head of Organization</span>
+                    <p>Diego joined the team his freshman year, in hopes of learning.</p>
                     <div class="team_social">
                       <a href="#"><i class="fa fa-facebook"></i></a>
                       <a href="#"><i class="fa fa-twitter"></i></a>
-                      <a href="#"><i class="fa fa-google-plus"></i></a>
+                      <a href="https://plus.google.com/101020404356069476720/"><i class="fa fa-google-plus"></i></a>
                       <a href="#"><i class="fa fa-linkedin"></i></a>
                     </div>
                   </div>
@@ -508,7 +516,7 @@
                     <div class="team_img">
                       <img src="img/team-3.jpg" alt="img">
                     </div>
-                    <h5>Jamie Sidens</h5>
+                    <h5>Dedicated Member</h5>
                     <span>Manager</span>                        
                     <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature</p>
                     <div class="team_social">
@@ -525,7 +533,7 @@
                     <div class="team_img">
                       <img src="img/team-4.jpg" alt="img">
                     </div>
-                    <h5>Jamie Sidens</h5>
+                    <h5>Dedicated Member</h5>
                     <span>Developer</span>                        
                     <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature</p>
                     <div class="team_social">
@@ -542,7 +550,7 @@
                     <div class="team_img">
                       <img src="img/team-5.jpg" alt="img">
                     </div>
-                    <h5>Jamie Sidens</h5>
+                    <h5>Dedicated Member</h5>
                     <span>Programmer</span>                        
                     <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature</p>
                     <div class="team_social">
@@ -559,7 +567,7 @@
                     <div class="team_img">
                       <img src="img/team-1.jpg" alt="img">
                     </div>
-                    <h5>Jamie Sidens</h5>
+                    <h5>Dedicated Member</h5>
                     <span>Web Designer</span>                        
                     <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature</p>
                     <div class="team_social">
@@ -602,8 +610,8 @@
           <div class="col-lg-12 col-md-12">
             <!-- BEGAIN SERVICE HEADING -->
             <div class="heading">
-              <h2 class="wow fadeInLeftBig">Our Services</h2>
-              <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+              <h2 class="wow fadeInLeftBig">Our Robots</h2>
+              <p>The robots that we have created are from the different years that we have participated in FRC. These robots comply to the rules FRC has given with their respective years. These robots are what the team must build within the 6 weeks that we are given.  </p>
             </div>
           </div>          
         </div>
@@ -616,44 +624,46 @@
                   <!-- BEGAIN SINGLE SERVICE -->
                   <div class="single_service wow fadeInLeft">
                     <div class="service_iconarea">
-                      <span class="fa fa-line-chart service_icon"></span>
+<!--                      <span class="fa fa-line-chart service_icon"></span>-->
+                        <img src="img/botprofiles/botprofile_chickenbotpie.jpg" class="service_img"/>
                     </div>
-                    <h3 class="service_title">Planning & Strategy</h3>
-                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text</p>
+                    <h3 class="service_title">ChickenBot Pie</h3>
+                    <p>For this robot teamwork was kept in mind. It had to pass the ball and be able to catch it. The big ball had to be passed around and moved efficiently between robots. Mecanum wheels helped with the manuverability to pass quickly with the other teams. </p>
                   </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-6">
                   <!-- BEGAIN SINGLE SERVICE -->
                   <div class="single_service wow fadeInRight">
                     <div class="service_iconarea">
-                      <span class="fa fa-suitcase service_icon"></span>
+                      <img src="img/botprofiles/botprofile_kiwiquail.JPG" class="service_img"/>
                     </div>
-                    <h3 class="service_title">Corporate Branding</h3>
-                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text</p>
+                    <h3 class="service_title">Kiwi Quail</h3>
+                    <p> This robot was made to throw frisbees. This is the primary ability that this robot has. It being primarily used for throwing frisbees allows it to be extremely accurate. It can launch them from long distances and from shorter distances as well. This robot incorporates many different skills that we have learned including pneumatics. </p>
                   </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-6">
                   <!-- BEGAIN SINGLE SERVICE -->
                   <div class="single_service wow fadeInLeft">
                     <div class="service_iconarea">
-                      <span class="fa fa-eraser service_icon"></span>
+                        <img src="img/botprofiles/botprofile_loganbot.jpg" class="service_img"/>
                     </div>
-                    <h3 class="service_title">Web Desing & Development</h3>
-                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text</p>
+                    <h3 class="service_title">Loganbot</h3>
+                    <p>This robot was made to throw frisbees and lift itself off the floor onto the first pipe. Althout it was not the best at throwing frisbees or climbing up the pipe pyramid, it was consistent. It was almost guaranteed that this robot would get a high number of points.</p>
                   </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-6">
                   <!-- BEGAIN SINGLE SERVICE -->
                   <div class="single_service wow fadeInRight">
                     <div class="service_iconarea">
-                      <span class="fa fa-paper-plane service_icon"></span>
+                      <img src="img/botprofiles/botprofile_basketball.jpg" class="service_img"/>
                     </div>
-                    <h3 class="service_title">SEO,SMM and Internet marketing</h3>
-                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text</p>
+                    <h3 class="service_title">Baskebot</h3>
+                    <p>Basketball was the game this robot played. It had to launch basketballs into different height hoops and be able to pick up the basketballs to launch them. This robot has sadly been taken apart as the parts were needed for another robot.</p>
                   </div>
                 </div>
+<!--
+
                 <div class="col-lg-6 col-md-6 col-sm-6">
-                  <!-- BEGAIN SINGLE SERVICE -->
                   <div class="single_service wow fadeInLeft">
                    <div class="service_iconarea">
                       <span class="fa fa-envelope-o service_icon"></span>
@@ -663,7 +673,6 @@
                   </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-6">
-                  <!-- BEGAIN SINGLE SERVICE -->
                   <div class="single_service wow fadeInRight">
                    <div class="service_iconarea">
                       <span class="fa fa-support service_icon"></span>
@@ -671,7 +680,9 @@
                     <h3 class="service_title">Premium Customer SUpport</h3>
                     <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text</p>
                   </div>
-                </div>               
+                </div>
+
+-->
               </div>
             </div>
           </div>
@@ -687,7 +698,8 @@
           <!-- START ABOUT HEADING -->
           <div class="heading">
             <h2 class="wow fadeInLeftBig">Sponsor Perks</h2>
-            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.</p>
+            <p>We need <i>your</i> help to bring science and engineering to our community. We have the will and the know-how, but need you to help spread the message of FIRST Robotics to ambitious students and a benefiting community. Here are 4 of our 7 sponsor tiers:
+</p>
           </div>
         </div>
         <div class="row col-lg-12 col-md-12">
@@ -696,61 +708,50 @@
               <!-- BEGAIN BASIC PRICE TABLE -->
               <div class="col-lg-3 col-md-3 col-sm-3">
                 <div class="single_price wow fadeInUp">
-                  <h3>Basic</h3>
+                  <h3>Silver</h3>
                   <div class="price">
-                    <h4>$25</h4>
-                    <span>per month</span>
+                    <h4>$500</h4>
+                    <span>per year</span>
                   </div>
                   <ul class="price_features">
-                    <li>Responsive <strong>Layout</strong></li>                  
-                    <li><strong>Customizable</strong> Feature</li>
-                    <li>Up to <strong>5 Projects</strong></li>
-                    <li><strong>10 GB</strong> Storage</li>
-                    <li>Up to <strong>100 Users</strong></li>
-                    <li><strong>15 GB</strong> Bandwidth</li>
-                    <li><strong>Security Suite</strong></li>
+                      <li><strong>Team T-shirt:</strong> Name of individual/business in small font</li>
+                      <li><strong>Banner:</strong> Small name on banner (displayed at events & tournaments)</li>
+                      <li><strong>Website:</strong> Name of individual/business on sponsorship page</li>
                   </ul>
-                  <a href="#" class="price_btn">Donate</a>
+                  <a href="/links/donate.html" class="price_btn" target="_blank">Donate</a>
                 </div>
               </div>
               <!-- BEGAIN STANDARD PRICE TABLE -->
               <div class="col-lg-3 col-md-3 col-sm-3">
-                <div class="single_price wow fadeInUp">
-                  <h3>Standard</h3>
+                <div class="single_price business_price wow fadeInUp">
+                  <h3>Gold</h3>
                   <div class="price">
-                    <h4>$50</h4>
-                    <span>per month</span>
+                    <h4>$1,000</h4>
+                    <span>per year</span>
                   </div>
                   <ul class="price_features">
-                    <li>Responsive <strong>Layout</strong></li>                  
-                    <li><strong>Customizable</strong> Feature</li>
-                    <li>Up to <strong>15 Projects</strong></li>
-                    <li><strong>20 GB</strong> Storage</li>
-                    <li>Up to <strong>100 Users</strong></li>
-                    <li><strong>35 GB</strong> Bandwidth</li>
-                    <li><strong>Security Suite</strong></li>
+                    <li><strong>Team T-shirt:</strong> Name of individual/business in medium font</li>       <strong></strong>
+                    <li><strong>Banner:</strong> Large name on banner (displayed at events & tournaments)</li>
+                    <li><strong>Website:</strong> Picture & link to Sponsor’s website on sponsorship page</li>
                   </ul>
-                  <a href="#" class="price_btn">Donate</a>
+                  <a href="/links/donate.html" class="price_btn" target="_blank">Donate</a>
                 </div>
               </div>
               <!-- BEGAIN BUSINESS PRICE TABLE -->
               <div class="col-lg-3 col-md-3 col-sm-3">
-                <div class="single_price business_price wow fadeInUp">
-                  <h3>Business</h3>
+                <div class="single_price wow fadeInUp">
+                  <h3>Platinum</h3>
                   <div class="price">
-                    <h4>$125</h4>
-                    <span>per month</span>
+                    <h4>$5,000</h4>
+                    <span>per year</span>
                   </div>
                   <ul class="price_features">
-                    <li>Responsive <strong>Layout</strong></li>                  
-                    <li><strong>Customizable</strong> Feature</li>
-                    <li><strong>Unlimited Projects</strong></li>
-                    <li><strong>75 GB</strong> Storage</li>
-                    <li>Up to <strong>100 Users</strong></li>
-                    <li><strong>150 GB</strong> Bandwidth</li>
-                    <li><strong>Security Suite</strong></li>
+                    <li>Robot: Small <strong>logo</strong> of business</li>
+                    <li>Team T-shirt: Medium-sized <strong>logo</strong> of business</li>
+                    <li>Banner: <strong>Large Logo</strong> on banner (displayed at events & tournaments)</li>
+                    <li><strong>Website:</strong> Banner & link to sponsor’s website on sponsorship page</li>
                   </ul>
-                  <a href="#" class="price_btn">Donate</a>
+                  <a href="/links/donate.html" class="price_btn" target="_blank">Donate</a>
                 </div>
               </div>
               <!-- BEGAIN DELUX PRICE TABLE -->
@@ -763,10 +764,10 @@
                   </div>
                   <ul class="price_features">
                     <li><strong>Tournaments</strong>: Your company acknowledged during competition Alliance selections, which are nationally televised</li>
-                    <li>Robot: <strong>Large</strong> logo of business Feature</li>
-                    <li>Team T-shirt: <strong>Large</strong> logo of business<strong>Unlimited Projects</strong></li>
+                    <li>Robot: <strong>Large</strong> logo of business</li>
+                    <li>Team T-shirt: <strong>Large</strong> logo of business</li>
                     <li>Banner: <strong>Large</strong> logo of business</li>
-                    <li><strong>Website</strong>: Banner & link to sponsor’s website on sponsorship page & logo on the front page</li>
+                    <li><strong>Website</strong>: Banner & link to sponsor’s website on sponsorship page</li>
                     <li><strong>Social media</strong> promotion</li>
                     <li>Available local interactive <strong>demonstration</strong> of a team robot</li>
 
@@ -774,7 +775,7 @@
 
 
                   </ul>
-                  <a href="#" class="price_btn">Donate</a>
+                  <a href="/links/donate.html" class="price_btn" target="_blank">Donate</a>
                 </div>
               </div>
             </div>
@@ -785,24 +786,24 @@
     <!--=========== END PRICING SECTION ================-->
 
 
-    <!--=========== BEGAIN BLOG SECTION ================-->
+    <!--=========== BEGAIN BLOG SECTION ================--
     <section id="blog">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 col-md-12">
-            <!-- START BLOG HEADING -->
+            <!-- START BLOG HEADING --
             <div class="heading">
               <h2 class="wow fadeInLeftBig">Latest News From Blog</h2>
               <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
             </div>
           </div>
           <div class="col-lg-12 col-md-12">
-            <!-- BEGAIN BLOG CONTENT -->
+            <!-- BEGAIN BLOG CONTENT --
             <div class="blog_content">
 
-              <!-- BEGAIN BLOG SLIDER -->
+              <!-- BEGAIN BLOG SLIDER --
               <div class="blog_slider">
-                <!-- BEGAIN SINGLE BLOG -->
+                <!-- BEGAIN SINGLE BLOG --
                 <div class="col-lg-4 col-md-4 col-sm-4">
                   <div class="single_post wow fadeInUp">
                     <div class="blog_img">
@@ -819,7 +820,7 @@
                   </div>
                 </div>
 
-                <!-- BEGAIN SINGLE BLOG -->
+                <!-- BEGAIN SINGLE BLOG --
                 <div class="col-lg-4 col-md-4 col-sm-4">
                   <div class="single_post wow fadeInUp">
                     <div class="blog_img">
@@ -835,7 +836,7 @@
                     <a href="blog-single.html" class="read_more">Read More <i class="fa fa-angle-double-right">  </i></a>
                   </div>
                 </div>
-                <!-- BEGAIN SINGLE BLOG -->
+                <!-- BEGAIN SINGLE BLOG --
                 <div class="col-lg-4 col-md-4 col-sm-4">
                   <div class="single_post wow fadeInUp">
                     <div class="blog_img">
@@ -851,7 +852,7 @@
                     <a href="blog-single.html" class="read_more">Read More <i class="fa fa-angle-double-right">  </i></a>
                   </div>
                 </div>
-                <!-- BEGAIN SINGLE BLOG -->
+                <!-- BEGAIN SINGLE BLOG --
                 <div class="col-lg-4 col-md-4 col-sm-4">
                   <div class="single_post wow fadeInUp">
                     <div class="blog_img">
@@ -867,7 +868,7 @@
                     <a href="blog-single.html" class="read_more">Read More <i class="fa fa-angle-double-right">  </i></a>
                   </div>
                 </div>
-                <!-- BEGAIN SINGLE BLOG -->
+                <!-- BEGAIN SINGLE BLOG --
                 <div class="col-lg-4 col-md-4 col-sm-4">
                   <div class="single_post wow fadeInUp">
                     <div class="blog_img">
@@ -883,7 +884,7 @@
                     <a href="blog-single.html" class="read_more">Read More <i class="fa fa-angle-double-right">  </i></a>
                   </div>
                 </div>
-                <!-- BEGAIN SINGLE BLOG -->
+                <!-- BEGAIN SINGLE BLOG --
                 <div class="col-lg-4 col-md-4 col-sm-4">
                   <div class="single_post wow fadeInUp">
                     <div class="blog_img">
@@ -908,12 +909,12 @@
     <!--=========== END BLOG SECTION ================-->
 
 
-    <!--=========== BEGAIN TESTIMONIAL SECTION ================-->
+    <!--=========== BEGAIN TESTIMONIAL SECTION ================--
     <section id="testimonial">
       <div class="container"> 
         <div class="row">
           <div class=" col-lg-7 col-md-7 col-sm-6">
-            <!-- START BLOG HEADING -->
+
             <div class="heading">
               <h2 class="wow fadeInLeftBig">Satisfied Customers</h2>
               <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
@@ -921,9 +922,9 @@
           </div>
           <div class=" col-lg-5 col-md-5 col-sm-6">
             <div class="testimonial_customer">
-              <!-- BEGAIN TESTIMONIAL SLIDER -->
+
               <ul class="testimonial_slider">
-                <!-- BEGAIN SINGLE TESTIMONIAL SLIDE#1 -->
+
                 <li>
                   <div class="media testi_media">
                     <a class="media-left testi_img" href="#">
@@ -938,7 +939,7 @@
                     <p>Message of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable</p>
                   </div>
                 </li>
-                <!-- BEGAIN SINGLE TESTIMONIAL SLIDE#2 -->
+
                 <li>
                   <div class="media testi_media">
                     <a class="media-left testi_img" href="#">
@@ -953,7 +954,7 @@
                     <p>Message of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
                   </div>
                 </li>
-                <!-- BEGAIN SINGLE TESTIMONIAL SLIDE#3 -->
+
                 <li>
                   <div class="media testi_media">
                     <a class="media-left testi_img" href="#">
@@ -974,7 +975,7 @@
         </div>
       </div>
     </section>
-    <!--=========== END TESTIMONIAL SECTION ================-->
+    !--=========== END TESTIMONIAL SECTION ================-->
 
 
     <!--=========== BEGAIN CLIENTS SECTION ================-->
@@ -997,9 +998,9 @@ We recognize our generous donors:
                 <div class="clients_slider">
                   <!-- BEGAIN SINGLE CLIENT SLIDE#1 -->
                   <div class="col-lg-3 col-md-3 col-sm-3">
-                    <div class="single_client">
-                      <img src="img/clients_img1.png" alt="clients Brand">
-                    </div>
+                    <a class="single_client" target="_blank" href="http://bosco.org">
+                        <img src="img/sponsorprofiles/sponsorprofile_sjb.png" alt="Saint John Bosco High School">
+                    </a>
                   </div>
                   <!-- BEGAIN SINGLE CLIENT SLIDE#2 -->
                   <div class="col-lg-3 col-md-3 col-sm-3">
@@ -1060,7 +1061,7 @@ We recognize our generous donors:
             <!-- START CONTACT HEADING -->
             <div class="heading">
               <h2 class="wow fadeInLeftBig">Contact Us</h2>
-              <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+              <p>Send us an email, we love making new friends! </p>
             </div>
           </div>
         </div>       
@@ -1074,6 +1075,7 @@ We recognize our generous donors:
                 <!-- FOR CONTACT FORM MESSAGE -->
                 <div id="form-messages"></div>
 
+<!-- original form --
                 <form>
                   <input class="form-control" type="text" placeholder="Name">
                   <input class="form-control" type="email" placeholder="Email">
@@ -1081,6 +1083,28 @@ We recognize our generous donors:
                   <textarea class="form-control" cols="30" rows="10" placeholder="Your Message"></textarea>
                    <input class="submit_btn" type="submit" value="Send">  
                 </form>
+-->
+
+<!--  embedded google form ---                  <iframe src="https://docs.google.com/forms/d/1KwQAIQUFqCqbGkzOpIRHuKaHeb6dpRbwsqBd4_75ynQ/viewform?embedded=true" width="100%" height="406" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>-->
+
+                     <form action="https://docs.google.com/forms/d/1KwQAIQUFqCqbGkzOpIRHuKaHeb6dpRbwsqBd4_75ynQ/formResponse" method="POST" id="ss-form" target="_self" onsubmit="">
+<!--  Redirect to custom url instead of google forms ---
+                        <script type="text/javascript">var submitted=false;</script>
+                        <iframe name="hidden_iframe" id="hidden_iframe"
+                        style="display:none;" onload="if(submitted)
+                        {window.location='http://google.com';}"></iframe>
+                        <form action="https://docs.google.com/forms/d/1KwQAIQUFqCqbGkzOpIRHuKaHeb6dpRbwsqBd4_75ynQ/formResponse" method="post"
+                        target="hidden_iframe" onsubmit="submitted=true;">
+-->
+
+
+                      <input type="text" placeholder="Name" name="entry.1019677557" value="" class="form-control" id="entry_1019677557" dir="auto" aria-label="Name  " aria-required="true" required="" title="">
+                      <input type="text" placeholder="Email" name="entry.1479206889" value="" class="form-control" id="entry_1479206889" dir="auto" aria-label="Email  Please enter a valid email" aria-required="true" required="" pattern="(?:[a-z0-9!#$%&amp;'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&amp;'*+/=?^_`{|}~-]+)*|&quot;(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21\x23-\x5b\x5d-\x7f]|\\[\x01-\x09\x0b\x0c\x0e-\x7f])*&quot;)@(?:(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?|\[(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?|[a-z0-9-]*[a-z0-9]:(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21-\x5a\x53-\x7f]|\\[\x01-\x09\x0b\x0c\x0e-\x7f])+)\])" title="Please enter a valid email">
+                      <textarea placeholder="Message" name="entry.1654389751" rows="8" cols="0" class="form-control" id="entry_1654389751" dir="auto" aria-label="Message  "></textarea>
+                      <input type="submit" name="submit" value="Send" id="ss-submit" class="submit_btn">
+                      </form>
+
+
               </div>
             </div>
             <!-- BEGAIN CONTACT MAP -->
@@ -1124,16 +1148,16 @@ We recognize our generous donors:
             <div class="col-lg-3 col-md-3 col-sm-6">
               <div class="single_contact_feaured wow fadeInUp">
                 <i class="fa fa-map-marker"></i>
-                <h4>Office Location</h4>
-                <p>Y13640 S. Bellflower Blvd. Bellflower, CA 90706, Room 322</p>
+                <h4>Lab Location</h4>
+                <p>13640 S. Bellflower Blvd. Bellflower, CA 90706, Room 322</p>
               </div>
             </div>
             <!-- BEGAIN CALL US FEATURE -->
             <div class="col-lg-3 col-md-3 col-sm-6">
               <div class="single_contact_feaured wow fadeInUp">
                 <i class="fa fa-clock-o"></i>
-                <h4>Working Hours</h4>
-                <p>Monday-Friday 9.00-21.00</p>
+                <h4>Meeting days</h4>
+                <p>Usually Monday-Saturday 3:00-5:00PM</p>
               </div>
             </div>
           </div>
@@ -1143,17 +1167,17 @@ We recognize our generous donors:
     </section>
     <!--=========== END CONTACT FEATURE SECTION ================-->
 
-    <!--=========== BEGAIN SUBSCRIBE SECTION ================-->
+    <!--=========== BEGAIN SUBSCRIBE SECTION ================--
     <section id="subscribe">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 col-md-12">
-            <!-- START SUBSCRIBE HEADING -->
+            <!-- START SUBSCRIBE HEADING --
             <div class="heading">
               <h2 class="wow fadeInLeftBig">Subscribe Us</h2>
               <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
             </div>
-            <!-- BEGAIN SUBSCRIVE FORM -->
+            <!-- BEGAIN SUBSCRIVE FORM --
             <form class="subscribe_form">
               <div class="subscrive_group wow fadeInUp">
                 <input class="form-control subscribe_mail" type="email" placeholder="Enter your email address">
@@ -1173,7 +1197,7 @@ We recognize our generous donors:
            <div class="col-lg-6 col-md-6 col-sm-6">
              <div class="footer_left">
 				<!--=========== Designed By WpFreeware Team ================-->
-               <p>Theme designed By <a href="http://www.wpfreeware.com">WpFreeware</a>.</p>
+               <p>Theme designed By <a href="http://www.wpfreeware.com" target="_blank">WpFreeware</a>.</p>
                <p>&copy; Tribe Robotics, FRC Team 4123, 2015.</p>
 			   <!--=========== Designed By WpFreeware Team ================-->
              </div>
@@ -1181,10 +1205,10 @@ We recognize our generous donors:
            <div class="col-lg-6 col-md-6 col-sm-6">
              <div class="footer_right">
                <ul class="social_nav">
-                 <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                 <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                 <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                 <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                 <li><a href="https://www.facebook.com/triberobotics" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                 <li><a href="https://twitter.com/TribeRobotics" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                 <li><a href="https://google.com/+TribeRobotics" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+                 <li><a href="https://instagram.com/triberobotics4123/" target="_blank"><i class="fa fa-instagram"></i></a></li>
                </ul>
              </div>
            </div>
