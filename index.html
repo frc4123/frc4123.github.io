@@ -149,7 +149,14 @@
               <div class="slider_caption">
                 <h2>Hi, We are Tribe Robotics</h2>
                 <p>Engineers in the Making</p>
-                <a href="#about" class="slider_btn">See what we do</a>              
+                <a  href="#about"
+                    onclick="$('html, body').animate({
+                    scrollTop: $( $(this).attr('href') ).offset().top
+                    }, 750);
+                    return false;"
+                    class="slider_btn">See what we do
+                </a>
+
               </div>
             </li>
 
