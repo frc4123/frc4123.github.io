@@ -50,6 +50,14 @@ a{
   color: #2f2f2f;
   
 }
+
+a.bluelink{
+  text-decoration: none;
+  color: #0000EE;
+    font-size: 24px;
+
+}
+
 a:focus{
   outline: none;
   text-decoration: none;
