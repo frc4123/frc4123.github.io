@@ -219,6 +219,14 @@ img{
 	position: relative;
 }
 
+.slider_video {
+
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+
+}
+
 
 .slider_overlay {
   background: none repeat scroll 0 0 #242434;
