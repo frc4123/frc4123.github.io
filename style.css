@@ -888,6 +888,16 @@ div[data-dimension] {
   float: none;
 }
 
+.countdown_box{
+	padding: 10px 15px;
+	border: 2px solid #fff;
+	color: #fff;
+	font-size: 20px;
+	display: inline-block;
+	text-transform: uppercase;
+  text-align: center;
+}
+
 
 /*--------------------*/
 /* TEAM SECTION */
